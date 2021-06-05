@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1170">
+	<link rel="stylesheet" type="text/css" href="liga.css">
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+	<title>Lig</title>
+</head>
+<body>
+	<header>
+		<img src="logo.png" style="width: 300px; height: 300px; float: right; margin-right: 390px;">
+		<img src="konami.png" style="width: 150px; height: 150px; float: right; position: absolute; margin-left: 1000px;">
+		<img src="ps4.png" style="width: 150px; height: 150px; float: right; position: absolute; margin-left: 1000px; margin-top: 150px;">
+		<div id="logoName"><h1>PES <br> Championship</h1></div>
+	</header>
+	<div id="sideBar">
+		<div class="menuButton" onclick="openMenu()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<ul>
+			<li>Menu</li>
+			<li><a href="index.html">Əsas Səhifə</a></li>
+			<li><a href="statistics.html">Məşqçi Statistikası</a></li>
+			<li><a href="dc.html">Dünya Çempionatı</a></li>
+			<li><a href="cl.html">Çempionlar Ligası</a></li>
+			<li><a href="lig.hmtl">Lig</a></li>
+		</ul>
+	</div>
+	<div id="Lig1">
+		<h1>Lig1: İnter - Ayxan Elxanlı</h1>
+		<img src="inter.jpg" style="width: 650px; height: 400px;">
+	</div>
+	<div id="Lig2">
+		<h1>Lig2: Çelsi - Ayxan Elxanlı</h1>
+		<img src="chelsea.jpg" style="width: 650px; height: 400px;">
+	</div>
+	<div id="Lig3">
+		<h1>Lig3: Bayern Münich - Nicat Yusifov</h1>
+		<img src="bavarya.jpg" style="width: 650px; height: 400px;">
+	</div>
+
+
+	<script>
+		function openMenu() {
+			document.getElementById("sideBar").classList.toggle("active");
+		}
+
+		
+	</script>
+</body>
+</html>
